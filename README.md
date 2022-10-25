@@ -1,5 +1,5 @@
 # SigPlotI2S
-Script to plot audio waves from I2S generated from sigrok/PulseView. This was created to provide visual aid when debugging I2S drivers.
+Script to plot audio waves from I2S samples exported from sigrok/PulseView. This was created to provide visual aid when debugging I2S drivers.
 
 ## Requirements
 - Python 3.9+
