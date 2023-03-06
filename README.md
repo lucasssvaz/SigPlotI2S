@@ -3,6 +3,7 @@ Script to plot audio waves from I2S samples exported from sigrok/PulseView. This
 
 ## Requirements
 - Python 3.9+
+- tkinter
 - [matplotlib](https://pypi.org/project/matplotlib/)
 - [bitstring](https://pypi.org/project/bitstring/)
 
