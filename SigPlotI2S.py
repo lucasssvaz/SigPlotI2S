@@ -31,7 +31,7 @@ if (args.datawidth < 1) or (args.datawidth > 32):
 	print("Invalid number of bits per sample!")
 	exit(0)
 
-in_file = open(args.input, "r")
+in_file = open(args.input, "r", errors='ignore')
 all_lines = in_file.readlines()
 
 for line in all_lines:
